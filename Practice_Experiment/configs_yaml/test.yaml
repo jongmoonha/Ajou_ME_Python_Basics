@@ -1,0 +1,5 @@
+act: sigmoid
+optim: sgd
+lr: 0.01
+batch_size: 128
+exp_name: test_yaml
