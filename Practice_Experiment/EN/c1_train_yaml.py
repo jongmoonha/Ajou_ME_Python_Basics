@@ -5,7 +5,7 @@ import yaml
 
 parser = argparse.ArgumentParser()
 
-# ① Define every option and set its default with default=
+# ① Define every argument and set its default with default=
 parser.add_argument('--act',        type=str,   default='relu',        help='activation function')
 parser.add_argument('--optim',      type=str,   default='adam',        help='optimizer')
 parser.add_argument('--lr',         type=float, default=0.001,         help='learning rate')
